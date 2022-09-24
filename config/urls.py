@@ -21,4 +21,5 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('__debug__/', include('debug_toolbar.urls')),
     path('', include('core.urls')),
+    path('chat/', include('chat.urls')),
 ]
