@@ -9,6 +9,7 @@ channels = "*"
 django-allauth = "~=0.51"
 django-crispy-forms = "~=1.14"
 django-debug-toolbar = "~=3.6"
+channels-redis = "*"
 
 [dev-packages]
 
